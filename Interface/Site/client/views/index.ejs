@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+
+	<title>One Movies an Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<!-- //for-mobile-apps -->
+	<link href="../bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../bower/toastr/toastr.min.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/my_style.css" rel='stylesheet' type='text/css' />
+	<link href="../css/login.css" rel='stylesheet' type='text/css' />
+	<link href="../bower/please-wait/build/please-wait.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/medile.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+	<!-- banner-slider -->
+	<link href="../css/jquery.slidey.min.css" rel="stylesheet">
+	<!-- //banner-slider -->
+	<!-- pop-up -->
+	<link href="../css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- //pop-up -->
+	<!-- font-awesome icons -->
+	<link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css" />
+	<!-- //font-awesome icons -->
+	<!-- js -->
+	<link href="../css/pace.css" rel="stylesheet" />
+	<script src="../js/pace.js"></script>
+	<script type="text/javascript" src="../bower/please-wait/build/please-wait.min.js"></script>
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.particleground.min.js"></script>
+
+	<!-- //js -->
+	<!-- banner-bottom-plugin -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.min.css" /> -->
+
+
+
+	<link rel="stylesheet" href="../bower/owl-carousel/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="../bower/owl-carousel/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="../bower/owl-carousel/owl-carousel/owl.transitions.css" />
+	<!-- //banner-bottom-plugin -->
+	<!-- <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'> -->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="../js/move-top.js"></script>
+	<script type="text/javascript" src="../js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+</head>
+
+<body ng-controller="main_controller" class="inner">
+
+	<!-- header -->
+	<script>
+		window.loading_screen = window.pleaseWait({
+			logo: '../images/spinner3.png',
+			backgroundColor: ' #ffffff',
+			loadingHtml: "<p class='loading-message' style='font-size:20px; padding-bottom:100px;'>...در حال بارگذاری </p><i class='fa fa-spinner fa-spin fa-5x fa-fw'></i>"
+		});
+	</script>
+	<header>
+		<div id="slidey">
+			<ul>
+				<li><img src="../images/schindlers-list.jpg" alt=" ">
+					<p class='title'>فهرست شیندلر</p>
+					<p class='description' dir='rtl'>اسکار شیندلر که تاجری معمولی است که عضو حزب نازی می‌باشد، به خاطر طبع خوشگذران و عیاش خود و با توجه به دوستی بین او و مقامات رده بالای ارتش که بیشتر به خاطر سخاوت وی است، موفق می‌شود کارخانه‌ای را با پول یهودیانی که در خفا با آنان شریک شده بخرد.
+						سپس با توجه به همین روابط خود یهودیان را به عنوان کارگر در کارخانه اشتغال می‌دهد. رفته رفته این راه فراری برای بعضی از یهودیان می‌شود که در قرنطینه مانده‌اند و خطر مرگ هر لحظه آنان را تهدید می‌کند. فیلم تغییر دیدگاه اسکار شیندلر را نشان می‌دهد که
+						از صبر و قدردانی یهودیان تاثیر گرفته و رفته رفته خود را وقف تسهیل شرایط و زنده نگه داشتن آنان می‌کند.</p>
+				</li>
+				<li><img src="../images/silence_of_the_lambs.jpg" alt=" ">
+					<p class='title'>سکوت بره‌ها</p>
+					<p class='description' dir='rtl'>کلاریس دانشجوی جوانی است که در کادر سازمان اف بی آی به کار و تحصیل اشتغال دارد. روزی به او خبر می‌دهند که قاتل خطرناکی چند زن را اینجا و آنجا کشته و پوست تن آنها را کنده است. یکی از روسای کلاریس او را مامور رسیدگی به این پرونده می‌کند و در آغاز او
+						را به دکتر هانیبال لکتر معرفی می‌کند، دکتر لکتر خود به گونه‌ای دیگر قاتل خطرناکی است که در زندان به سر می‌برد. دکتر لکتر که به آدمخواری شهرت دارد همسرش را در یک کلام خورده است. رئیس به کلاریس می‌گوید که لکتر می‌تواند او را به دستیابی به قاتل راهنمایی
+						کند.
+					</p>
+				</li>
+				<li><img src="../images/forest_gump.jpg" alt=" ">
+					<p class='title'>فارست گامپ</p>
+					<p class='description' dir='rtl'>فارست گامپ (تام هنکس)، مرد ساده‌دلی است که در ایستگاه اتوبوسی منتظر نشسته‌است. با آمدن خانمی، خود را معرفی می‌کند و داستان زندگیش را تعریف می‌کند. فارست کودکی با بهرهٔ هوشی پایینتر از همسالانش است و تمام دنیایش مادرش (سالی فیلد) که حوادث اطرافش را
+						با زبانی ساده برایش توصیف می‌کند. او در کودکی مجبور به استفاده از اسکلت و داربست فلزی بود که به پایش بسته می‌شد. بچه‌های همسالش او را دوست نداشتند. اما یکی با او همبازی شد: جنی. طی حادثه‌ای، آن اسکت مزاحم فلزی در هم می‌شکند و توانایی فارست در دویدن
+						پدیدار می‌شود. </p>
+				</li>
+				<li><img src="../images/god_father.jpg" alt=" ">
+					<p class='title'>پدرخوانده</p>
+					<p class='description' dir='rtl'>فیلم در جشن عروسی کانی، دختر دون ویتو کورلئونه، با کارلو ریزی در لانگ بیچ نیویورک، لانگ آیلند در اواخر تابستان ۱۹۴۵ شروع می‌شود. وقت پدرخوانده برای شنیدن خواهش‌های دوستان و زیردستان چاپلوس پر شده‌است. یکی از این خواهش‌ها را پسرخواندهٔ او، جانی فونتین
+						خواننده (که گویی شخصیت او از فرانک سیناترا الهام گرفته شده‌است) مطرح می‌کند. او به نفوذ کورلئونه برای گرفتن یک نقش در فیلمی که توسط جک ولتز تهیه می‌شود، احتیاج دارد. دون کورلئونه به او اطمینان خاطر می‌دهد که همه چیز را درست کند</p>
+				</li>
+				<li><img src="../images/shawshank.jpg" alt=" ">
+					<p class='title'>رستگاری شاوشنگ</p>
+					<p class='description' dir='rtl'>داستان رستگاری از شاوشنگ در سال ۱۹۶۴ اتفاق می افتد و درباره یک بانکدار به نام اندی دفرسن ( تیم رابینز ) است که اشتباهاً به جرم قتل همسرش به حبس ابد در زندان ایالتی شاوشنگ محکوم می شود . او در زندان با فضایی پر خشونت و رشوه خواری مواجه می شود. در
+						این خلال با زندانی سابقه داری به نام رد ( مورگان فریمن ) که به کار قاچاق کالا از بیرون به داخل زندان مشغول است، طرح دوستی می ریزد و به کمک او موفق به …</p>
+				</li>
+			</ul>
+		</div>
+		<script src="../js/jquery.slidey.js"></script>
+		<script src="../js/jquery.dotdotdot.min.js"></script>
+
+		<script type="text/javascript">
+			$("#slidey").slidey({
+				interval: 10000,
+				listCount: 5,
+				showList: true
+			});
+			$(".slidey-list-description").dotdotdot();
+		</script>
+		<!-- Modal -->
+
+		<!--modal-->
+		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h3 ng-bind='each_movie.Title'></h3>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-md-3">
+								<img ng-src="../{{poster_name(each_movie.poster_address)}}" title="album-name" class="img-responsive " />
+							</div>
+							<div class="col-md-9 table-responsive">
+								<table class="table table-striped">
+									<tbody>
+										<tr>
+											<td>
+												<h5>نام فیلم:</h5></td>
+											<td ng-bind='each_movie.Title'></td>
+										</tr>
+										<tr>
+											<td>سال تولید:</td>
+											<td ng-bind='each_movie.Year'></td>
+										</tr>
+										<tr>
+											<td>دسته‌بندی:</td>
+											<td ng-bind='each_movie.Genre'></td>
+										</tr>
+										<tr>
+											<td>کارگردان:</td>
+											<td ng-bind='each_movie.Director'></td>
+										</tr>
+										<tr>
+											<td>بازیگران:</td>
+											<td ng-bind='each_movie.Actors'></td>
+										</tr>
+										<tr>
+											<td>خلاصه فیلم:</td>
+											<td ng-bind='each_movie.Plot'></td>
+										</tr>
+										<tr>
+											<td>جوایز:</td>
+											<td ng-bind='each_movie.Awards'></td>
+										</tr>
+										<tr>
+											<td style='white-space: nowrap;'>رنکینگ سایت IMDB:</td>
+											<td ng-bind='each_movie.imdbRating'></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">خروج</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Begin Navbar -->
+	<div id="nav">
+		<div class="navbar navbar-default navbar-static">
+			<div class="container-fluid">
+				<div class='navbar-header'>
+					<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			 <span class="sr-only">Toggle navigation</span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+		 </button>
+					<a class="navbar-brand" href="#">سامانه توصیه‌گر فیلم	<i class="fa fa-film" aria-hidden="true"></i></a>
+				</div>
+				<div id='navbar' class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hvr-underline-from-center pull-right"><a ng-click='update_recom()' href="">به‌روز رسانی لیست مورد علاقه <i class="fa fa-refresh" aria-hidden="true"></i>
+				<li class="hvr-underline-from-center pull-right"><a  href="" ng-click="logout()">‌خروج  <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="banner-bottom">
+
+		<h4 class="latest-text w3_latest_text">فیلم های توصیه شده</h4>
+		<div class="container">
+			<div class="w3_agile_banner_bottom_grid" ng-style="disable_recom">
+				<data-owl-carousel id="owl1" class="owl-carousel" data-options="{navigation: true}">
+					<div owl-carousel-item="" ng-repeat="index in user_data.recom_movie" class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href='' data-toggle="modal" data-target="#myModal" ng-click='movie_info(index)' class="hvr-shutter-out-horizontal">
+								<img ng-src="../{{poster_name(index.poster_address)}}" title="album-name" style='height: 300px; width: 200px' class="img-responsive" />
+								<div class="w3l-action-icon"><i class="fa fa-info-circle " aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6>{{index.Title}}</h6>
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>{{index.Year}}</p>
+									<div class="block-stars">
+										<div star-rating rating="index.imdbRating/2" read-only="false" max-rating="5" click="rateMovie(index.movie_id,param)" value="3"></div>
+									</div>
+									<div class="clearfix">
+									</div>
+								</div>
+								<div class="ribben">
+									<p>NEW</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</data-owl-carousel>
+			</div>
+		</div>
+		<br>
+		<h4 class="latest-text w3_latest_text">فیلم های امتیاز داده شده</h4>
+		<div class="container">
+			<div class="w3_agile_banner_bottom_grid">
+
+				<data-owl-carousel id="owl2" class="owl-carousel" data-options="{navigation: true}">
+					<div owl-carousel-item="" ng-repeat="index in user_data.rated_movie" class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href='' data-toggle="modal" data-target="#myModal" ng-click='movie_info(index)' class="hvr-shutter-out-horizontal">
+								<img ng-src="../{{poster_name(index.poster_address)}}" title="album-name" style=' height: 300px; width: 200px;' class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-info-circle " aria-hidden="true"></i></div>
+
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6>{{index.Title}}</h6>
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>{{index.Year}}</p>
+									<div class="block-stars">
+										<div star-rating rating="index.user_rate" read-only="false" max-rating="5" click="change_rate(index.movie_id,param)" value="3"></div>
+									</div>
+									<div class="clearfix">
+									</div>
+								</div>
+								<div class="ribben">
+									<p>NEW</p>
+								</div>
+							</div>
+						</div>
+				</data-owl-carousel>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="w3ls_footer_grid">
+					<div class="col-md-10 w3ls_footer_grid_left col-md-offset-2">
+						<div class="w3ls_footer_grid_left1">
+							<h2 class="col-md-offset-7">پروژه سامانه توصیه گر</h2>
+							<div class="w3ls_footer_grid_left1_pos">
+								<h4 style='color:white;text-align:right'>طراحی و پیاده سازی سامانه توسط :دانیال جاهد, <a class='myName' href="http://github.com/danialv">دانیال وفادار</a></h4>
+								<br>
+								<h4 style='color:white;text-align:right'>استاد راهنما:دکتر جواد حمیدزاده</h4>
+								<br>
+								<h4 style='color:white;text-align:right'>بهمن ۱۳۹۶</h4>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-5 w3ls_footer_grid1_left">
+					<p>&copy; 2016 All rights reserved | Design by <a href="http://github.com/danialv">Danial Vafadar</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //footer -->
+		<!-- Bootstrap Core JavaScript -->
+		<script src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+
+			});
+		</script>
+		<script>
+			$('#nav').affix({
+				offset: {
+					top: $('header').height() - $('#nav').height()
+
+				}
+			});
+		</script>
+		<!-- flexSlider -->
+
+		<script defer src="../js/jquery.flexslider.js"></script>
+		<script src="../bower/spin.js/spin.min.js"></script>
+		<script src="../bower/angular/angular.min.js"></script>
+		<script src="../bower/angular-route/angular-route.min.js"></script>
+		<script src="../bower/angular-spinner/angular-spinner.min.js"></script>
+		<script src="../bower/owl-carousel/owl-carousel/owl.carousel.min.js"></script>
+		<script src="../bower/toastr/toastr.min.js"></script>
+		<script src="../js/login.js"></script>
+		<script src="../js/Angular/root.js"></script>
+		<script src="../js/Angular/star_rating.js"></script>
+		<script src="../js/Angular/owl.js"></script>
+		<script src="../js/Angular/http_engine.js"></script>
+		<script src="../js/Angular/get_rated_movie.js"></script>
+		<script>
+			window.loading_screen.finish();
+		</script>
+
+</body>
+
+</html>

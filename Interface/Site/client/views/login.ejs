@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+
+<title>One Movies an Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="../bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/bootstrap_rtl.css" rel='stylesheet' type='text/css' />
+<link href="../bower/toastr/toastr.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/my_style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script src="../bower/angular/angular.min.js"></script>
+<link href="../css/login.css" rel='stylesheet' type='text/css' />
+
+</head>
+<body>
+  <div class="container" ng-controller="login_controller">
+
+      <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+
+          <div class="row">
+						<div class="col-sm-8 col-sm-offset-4">
+            <img src="../images/login1.png" style="height:40%;width:40%"></img>
+					</div>
+          </div>
+
+          <div class="panel panel-default" style="background:#FFFFFF">
+              <div class="panel-heading">
+                  <div class="panel-title text-center">	<i class="fa fa-film" aria-hidden="true"></i> سامانه توصیه‌گر فیلم</div>
+              </div>
+
+              <div class="panel-body" ng-cloak>
+
+                  <form name="form" id="form" class="form-horizontal"  method="POST" ng-submit="send_form()">
+										<div class="input-group cssFade" ng-hide='login_mode'>
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+												<input id="user" type="text" ng-model="enroll.first_name" class="form-control" ng-required='!login_mode' value="" placeholder='نام' required>
+										</div>
+										<div class="input-group cssFade" ng-hide='login_mode'>
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+												<input id="user" type="text" ng-model="enroll.last_name" class="form-control" ng-required='!login_mode'  placeholder="نام‌‌خانوادگی" required>
+										</div>
+										<div class="input-group cssFade" ng-hide='login_mode'>
+												<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+												<input id="user" type="text" ng-model="enroll.username" class="form-control" ng-required='!login_mode' placeholder="نام‌کاربری" required>
+										</div>
+										<div class="input-group cssFade" ng-hide='login_mode'>
+												<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+												<input id="user" type="password" ng-model="enroll.password" class="form-control"  ng-required='!login_mode' placeholder="رمز‌عبور" required>
+										</div>
+										<div class="input-group cssFade" ng-hide='login_mode'>
+												<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+												<input id="user" type="email" ng-model="enroll.email" class="form-control" ng-required='!login_mode' placeholder="آدرس‌ایمیل" required>
+										</div>
+                      <div class="input-group cssFade" ng-show='login_mode'>
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                          <input id="user" type="text" ng-model="login.username"  class="form-control"  ng-required='login_mode' placeholder="نام‌کاربری" required>
+                      </div>
+                      <div class="input-group cssFade" ng-show='login_mode'>
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                          <input id="password" type="password" ng-model="login.password"  class="form-control" ng-required='login_mode'placeholder="رمز‌عبور" required>
+                      </div>
+
+                      <div class="form-group">
+                          <!-- Button -->
+                          <div class="col-sm-6 controls">
+                              <button type="submit" href="#" class="btn btn-primary" ng-bind="submit_title"></i></button>
+                          </div>
+													<div class="col-sm-6 controls">
+                              <span class="btn btn-success pull-left" ng-click="form_trigger()" ng-bind="toggle_value"></i></span>
+                          </div>
+                      </div>
+
+                  </form>
+
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="particles"></div>
+</body>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../bower/angular-animate/angular-animate.js"></script>
+<script src="../js/jquery.particles.min.js"></script>
+<script src="../bower/toastr/toastr.min.js"></script>
+<script src="../js/Angular/http_engine.js"></script>
+<script src="../js/Angular/login.js"></script>
+<script src="../js/login.js"></script>
+<script src="../js/login.js"></script>
